@@ -1,3 +1,5 @@
+<sup>❤ Be a Hero, tip a 🍺 🙂 ⟶ Ƀ: 1AZMeGVfCBbYwVYyG9s79pJDyocTZgiApa</sup>
+
 pub
 ======
 
@@ -70,3 +72,4 @@ GPG
 	naiI5IBYWb0FCcD91EDrp2ca4B78Rh74C7spj9ut/bT844Bj
 	=nkv0
 	-----END PGP PUBLIC KEY BLOCK-----
+
