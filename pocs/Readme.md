@@ -1,6 +1,27 @@
+<sup>❤ Be a Hero, tip a 🍺 🙂 ⟶ **Ƀ**: 1AZMeGVfCBbYwVYyG9s79pJDyocTZgiApa | **Ξth**: 0x438B38E30eF117C15fBfF833f9C2c70182925815</sup>
+
+
 PoCs
 ====
 
-Exploit PoCs for vulnerabilities disclosed by tintinweb.
+Exploit PoCs for vulnerabilities disclosed by [tintinweb](https://github.com/tintinweb).
 
+
+| CVE                            | Description         |
+| ------------------------------ |:-------------:|
+| [cve-2014-2021](cve-2014-2021) ([mitre](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-2021)) |  Cross-site scripting (XSS) vulnerability in admincp/apilog.php in vBulletin 4.2.2 and earlier, and 5.0.x through 5.0.5 allows remote authenticated users to inject arbitrary web script or HTML via a crafted XMLRPC API request, as demonstrated using the client name. |
+| [cve-2014-2022](cve-2014-2022) ([mitre](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-2022)) | SQL injection vulnerability in includes/api/4/breadcrumbs_create.php in vBulletin 4.2.2, 4.2.1, 4.2.0 PL2, and earlier allows remote authenticated users to execute arbitrary SQL commands via the conceptid argument in an xmlrpc API request.|
+| [cve-2014-2023](cve-2014-2023) ([mitre](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-2023)) | Multiple SQL injection vulnerabilities in the Tapatalk plugin 4.9.0 and earlier and 5.x through 5.2.1 for vBulletin allow remote attackers to execute arbitrary SQL commands via a crafted xmlrpc API request to (1) unsubscribe_forum.php or (2) unsubscribe_topic.php in mobiquo/functions/. |
+| [cve-2015-5477](cve-2015-5477) ([mitre](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2015-5477))|  (poc only) named in ISC BIND 9.x before 9.9.7-P2 and 9.10.x before 9.10.2-P3 allows remote attackers to cause a denial of service (REQUIRE assertion failure and daemon exit) via TKEY queries.|
+| [cve-2016-0772](cve-2016-0772) ([mitre](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0772))|  The smtplib library in CPython (aka Python) before 2.7.12, 3.x before 3.4.5, and 3.5.x before 3.5.2 does not return an error when StartTLS fails, which might allow man-in-the-middle attackers to bypass the TLS protections by leveraging a network position between the client and the registry to block the StartTLS command, aka a "StartTLS stripping attack." |
+| [cve-2016-2563](cve-2016-2563) ([mitre](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-2563)) |  Stack-based buffer overflow in the SCP command-line utility in PuTTY before 0.67 and KiTTY 0.66.6.3 and earlier allows remote servers to cause a denial of service (stack memory corruption) or execute arbitrary code via a crafted SCP-SINK file-size response to an SCP download request.|
+| [cve-2016-3115](cve-2016-3115) ([mitre](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3115))|  Multiple CRLF injection vulnerabilities in session.c in sshd in OpenSSH before 7.2p2 allow remote authenticated users to bypass intended shell-command restrictions via crafted X11 forwarding data, related to the (1) do_authenticated1 and (2) session_x11_req functions.|
+| [cve-2016-3116](cve-2016-3116) ([mitre](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3116)) |  CRLF injection vulnerability in Dropbear SSH before 2016.72 allows remote authenticated users to bypass intended shell-command restrictions via crafted X11 forwarding data.|
+| [cve-2016-5725](cve-2016-5725) ([mitre](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-5725)) |  Directory traversal vulnerability in JCraft JSch before 0.1.54 on Windows, when the mode is ChannelSftp.OVERWRITE, allows remote SFTP servers to write to arbitrary files via a ..\ (dot dot backslash) in a response to a recursive GET command.|
+| [nocve-2016-ethereum_mist_browser](nocve-2016-ethereum_mist_browser) | ethereum mist browser arbitrary command execution file read write delete and information disclosure |
+| [cve-2017-8798](cve-2017-8798) ([mitre](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-8798)) |  Integer signedness error in MiniUPnP MiniUPnPc v1.4.20101221 through v2.0 allows remote attackers to cause a denial of service or possibly have unspecified other impact.|
+| [nocve-2017-macos-oidparser-certtool](nocve-2017-macos-oidparser-certtool) | certtool cuOidParser sprintf buffer overwrite |
+| [cve-2017-16929](cve-2017-16929) ([mitre](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-16929)) |  The remote management interface on the Claymore Dual GPU miner 10.1 is vulnerable to an authenticated directory traversal vulnerability exploited by issuing a specially crafted request, allowing a remote attacker to read/write arbitrary files. This can be exploited via ../ sequences in the pathname to miner_file or miner_getfile.|
+| [cve-2017-16930](cve-2017-16930) ([mitre](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-16930)) | The remote management interface on the Claymore Dual GPU miner 10.1 allows an unauthenticated remote attacker to execute arbitrary code due to a stack-based buffer overflow in the request handler. This can be exploited via a long API request that is mishandled during logging.|
+| [cve-2017-18016](cve-2017-18016) ([mitre](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2017-18016)) |  TBD|
 
