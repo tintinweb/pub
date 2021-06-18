@@ -9,6 +9,10 @@ Exploit PoCs for vulnerabilities disclosed by [tintinweb](https://github.com/tin
 
 | CVE                            | Description         |
 | ------------------------------ |:-------------:|
+| [nocve-2021-remix_drive_by_and_remixd_path_traversal_and_rce](nocve-2021-remix_drive_by_and_remixd_path_traversal_and_rce) | see readme |
+| [nocve-2021-php-imap_mime_splitting_crlf](nocve-2021-php-imap_mime_splitting_crlf) | see readme |
+| [nocve-2021-python-mime_splitting](nocve-2021-python-mime_splitting) | see readme |
+| [nocve-2021-python-smptlib_multiple_crlf](nocve-2021-python-smptlib_multiple_crlf) | see readme |
 | [cve-2021-21374](cve-2021-21374) ([mitre](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2021-21374)) | In Nim before 1.4.4, Nimble fails to validate certificates due to insecure httpClient defaults |
 | [cve-2021-21373](cve-2021-21373) ([mitre](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2021-21373)) | In Nim before 1.4.4, Nimble falls back to insecure http url when fetching packages |
 | [cve-2021-21372](cve-2021-21372) ([mitre](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2021-21372)) | In Nim before 1.4.4, Nimble allows arbitrary code execution for specially crafted package metadatas |
