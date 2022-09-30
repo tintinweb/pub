@@ -9,6 +9,13 @@ Exploit PoCs for vulnerabilities disclosed by [tintinweb](https://github.com/tin
 
 | CVE                            | Description         |
 | ------------------------------ |:-------------:|
+| [nocve-2021-ipns-downgrading-and-takeover](nocve-2021-ipns-downgrading-and-takeover/Readme.md) | see readme |
+| [nocve-2021-jsipns-signed-message-malleability](nocve-2021-jsipns-signed-message-malleability/Readme.md) | see readme |
+| [nocve-2021-jsipfs-api-cors-bypass-full-admin-write](nocve-2021-jsipfs-api-cors-bypass-full-admin-write/Readme.md) | see readme |
+| [nocve-2021-jsipfs-html-injection](nocve-2021-jsipfs-html-injection/Readme.md) | see readme |
+| [cve-2020-26279](cve-2020-26279/Readme.md) | go-ipfs path traversal |
+| [cve-2020-26283](cve-2020-26283/Readme.md) | see readme |
+| [nocve-2021-ipfs-desktop-path-traversal-and-arbitrary-overwrite](nocve-2021-ipfs-desktop-path-traversal-and-arbitrary-overwrite/Readme.md) | see readme |
 | [nocve-2021-remix_drive_by_and_remixd_path_traversal_and_rce](nocve-2021-remix_drive_by_and_remixd_path_traversal_and_rce) | see readme |
 | [nocve-2021-php-imap_mime_splitting_crlf](nocve-2021-php-imap_mime_splitting_crlf) | see readme |
 | [nocve-2021-python-mime_splitting](nocve-2021-python-mime_splitting) | see readme |
